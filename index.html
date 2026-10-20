@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio académico de Ashley Alvillar: diseño, estructura HTML y estilos CSS.">
+  <title>Ashley Creative Studio | Portafolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+  <!-- Encabezado y navegación mediante enlaces a las secciones de esta página. -->
+  <header class="cabecera">
+    <div class="contenedor barra">
+      <a class="marca" href="#inicio" aria-label="Ashley Creative Studio, inicio">Ashley<span>Creative Studio</span></a>
+      <nav aria-label="Navegación principal">
+        <ul class="menu">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#proyectos">Portafolio</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="contenido">
+    <!-- Inicio: presentación del portafolio y acceso a los proyectos. -->
+    <section id="inicio" class="hero contenedor" aria-labelledby="titulo-inicio">
+      <div>
+        <p class="etiqueta">PORTAFOLIO ACADÉMICO · ASHLEY ALVILLAR</p>
+        <h1 id="titulo-inicio">¡Hola! Soy Ashley.<br><em>Transformo ideas</em><br>en soluciones reales.</h1>
+        <p class="introduccion">Un espacio para compartir mi aprendizaje en diseño y desarrollo web, desde la primera idea hasta una página que se adapta a cada pantalla.</p>
+        <a class="boton" href="#proyectos">Ver mis proyectos <span aria-hidden="true">↗</span></a>
+      </div>
+      <figure class="ilustracion">
+        <img src="imagenes/estudio.svg" alt="Ilustración de una página web con formas y una paleta violeta" width="600" height="540">
+        <figcaption>Ideas, estructura y diseño.</figcaption>
+      </figure>
+    </section>
+    <!-- Perfil y habilidades en aprendizaje. -->
+    <section id="sobre-mi" class="franja" aria-labelledby="titulo-sobre">
+      <div class="contenedor sobre">
+        <div><p class="etiqueta">01 / SOBRE MÍ</p><h2 id="titulo-sobre">Aprender.<br>Crear. Mejorar.</h2></div>
+        <div><p>Soy Ashley Alvillar y este portafolio reúne las etapas de mi proyecto académico de diseño web. Mi objetivo es presentar el contenido de forma clara, ordenada y accesible.</p>
+          <p>Mi proceso comienza con la planificación, continúa con la estructura HTML y se completa con estilos CSS y pruebas de navegación.</p>
+          <h3>Habilidades y herramientas en aprendizaje</h3>
+          <ul class="habilidades"><li>HTML semántico</li><li>CSS</li><li>Diseño adaptable</li><li>Editor de código</li><li>Herramientas del navegador</li></ul>
+        </div>
+      </div>
+    </section>
+    <!-- Tres ejercicios académicos: cada article representa un proyecto. -->
+    <section id="proyectos" class="contenedor seccion" aria-labelledby="titulo-proyectos">
+      <p class="etiqueta">02 / PORTAFOLIO</p>
+      <div class="titulo-fila"><h2 id="titulo-proyectos">Proyectos destacados</h2><p>Tres etapas de un mismo proceso creativo.</p></div>
+      <div class="proyectos">
+        <article class="tarjeta">
+          <img src="imagenes/planificacion.svg" alt="Boceto con encabezado, contenido y tres bloques de proyectos" width="600" height="400" loading="lazy">
+          <div class="tarjeta-cuerpo"><p class="etiqueta">PLANIFICACIÓN</p><h3>Del concepto al boceto</h3><p>Definición del público, los objetivos y las secciones del portafolio: Inicio, Sobre mí, Proyectos y Contacto.</p><details><summary>Ver objetivo y resultado</summary><p>Objetivo: organizar la información antes de programar. Resultado: una estructura que guía la construcción del sitio.</p></details></div>
+        </article>
+        <article class="tarjeta">
+          <img src="imagenes/estructura.svg" alt="Representación de bloques HTML para encabezado, navegación y contenido" width="600" height="400" loading="lazy">
+          <div class="tarjeta-cuerpo"><p class="etiqueta">HTML</p><h3>Una estructura con sentido</h3><p>Maquetación semántica con encabezado, navegación, contenido principal, proyectos y formulario de contacto.</p><details><summary>Ver objetivo y resultado</summary><p>Objetivo: construir una base comprensible. Resultado: secciones identificadas, enlaces internos y campos con etiquetas.</p></details></div>
+        </article>
+        <article class="tarjeta">
+          <img src="imagenes/adaptable.svg" alt="La misma composición de página en una pantalla grande y en un teléfono" width="600" height="400" loading="lazy">
+          <div class="tarjeta-cuerpo"><p class="etiqueta">CSS Y REVISIÓN</p><h3>Diseño para cada pantalla</h3><p>Aplicación de colores, tipografía, cuadrículas y reglas adaptables para presentar el contenido en distintos tamaños.</p><details><summary>Ver objetivo y resultado</summary><p>Objetivo: mejorar la lectura y la navegación. Resultado: tres columnas en pantallas amplias y una columna en pantallas pequeñas.</p></details></div>
+        </article>
+      </div>
+    </section>
+    <!-- Formulario local de demostración: no transmite ni almacena datos. -->
+    <section id="contacto" class="franja" aria-labelledby="titulo-contacto">
+      <div class="contenedor contacto seccion">
+        <div><p class="etiqueta">03 / CONTACTO</p><h2 id="titulo-contacto">¿Tienes un proyecto<br>en mente? ¡Hablemos!</h2><p>Este formulario forma parte de una demostración académica. Valida los datos en el navegador; no envía ni almacena mensajes.</p>
+          <h3>Explora comunidades profesionales</h3><p>Enlaces externos de referencia; no son perfiles personales de Ashley.</p>
+          <ul class="redes"><li><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗<span class="solo-lector"> (abre una nueva pestaña)</span></a></li><li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗<span class="solo-lector"> (abre una nueva pestaña)</span></a></li><li><a href="https://www.behance.net/" target="_blank" rel="noopener noreferrer">Behance ↗<span class="solo-lector"> (abre una nueva pestaña)</span></a></li></ul>
+        </div>
+        <form id="formulario-contacto" aria-describedby="nota-formulario">
+          <p id="nota-formulario">Todos los campos son obligatorios. No incluyas datos sensibles.</p>
+          <label for="nombre">Nombre</label><input id="nombre" name="nombre" type="text" autocomplete="name" required minlength="2" maxlength="80">
+          <label for="correo">Correo electrónico</label><input id="correo" name="correo" type="email" autocomplete="email" required maxlength="120">
+          <label for="mensaje">Mensaje</label><textarea id="mensaje" name="mensaje" rows="5" required minlength="10" maxlength="2000"></textarea>
+          <button class="boton" type="submit" disabled>Enviar mensaje</button>
+          <noscript><p>Activa JavaScript para probar la validación de esta demostración. No se envían datos.</p></noscript>
+          <p id="estado-formulario" class="estado" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <!-- Pie de página y enlace para regresar al inicio. -->
+  <footer class="contenedor pie"><p>© 2026 Ashley Creative Studio · Ashley Alvillar.</p><a href="#inicio">Volver al inicio ↑</a></footer>
+</body>
+</html>

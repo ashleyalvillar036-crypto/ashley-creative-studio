@@ -1,0 +1,17 @@
+ASHLEY CREATIVE STUDIO
+Proyecto de Ashley Alvillar
+
+PARA VER LA PÁGINA
+Abre index.html con doble clic. Conserva todos los archivos dentro de esta carpeta.
+
+ARCHIVOS
+- index.html: contenido y estructura de la página.
+- style.css: colores, diseño y adaptación a celular y tableta.
+- script.js: validación del formulario de demostración.
+- imagenes: ilustraciones utilizadas en la página.
+
+PARA MODIFICAR EL CÓDIGO
+Abre esta carpeta en Visual Studio Code o edita los archivos con un editor de texto.
+
+El formulario es una demostración: comprueba los datos, pero no envía ni guarda mensajes.
+Los enlaces a redes son referencias generales, no perfiles personales.
